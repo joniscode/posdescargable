@@ -2,6 +2,10 @@
 
 Herramientas de soporte para Prilso POS, de descarga publica.
 
+## PrilsoPOS-Setup-1.0.0.exe
+
+Instalador de la aplicacion completa. Doble clic, instala en el equipo, crea acceso directo. No requiere permisos de administrador.
+
 ## ResetAdminPin.exe
 
 Restablece el PIN del administrador (o de cualquier usuario) directo en la base de datos local, para cuando se pierde el acceso. No necesita Python instalado.
