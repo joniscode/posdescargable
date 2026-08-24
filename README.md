@@ -2,9 +2,11 @@
 
 Herramientas de soporte para Prilso POS, de descarga publica.
 
-## PrilsoPOS-Setup-1.0.0.exe
+## PrilsoPOS-Setup-1.0.1.exe
 
 Instalador de la aplicacion completa. Doble clic, instala en el equipo, crea acceso directo. No requiere permisos de administrador.
+
+v1.0.1: incluye la conexion a Supabase (licencias) ya configurada de fabrica -- antes de esta version la activacion de licencia no podia funcionar en un equipo instalado.
 
 ## ResetAdminPin.exe
 
