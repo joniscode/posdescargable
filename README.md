@@ -2,11 +2,12 @@
 
 Herramientas de soporte para Prilso POS, de descarga publica.
 
-## PrilsoPOS-Setup-1.0.1.exe
+## PrilsoPOS-Setup-1.0.2.exe
 
-Instalador de la aplicacion completa. Doble clic, instala en el equipo, crea acceso directo. No requiere permisos de administrador.
+Instalador de la aplicacion completa. Doble clic, instala en el equipo, crea acceso directo. No requiere permisos de administrador. Abre en una ventana tipo app (sin barra de navegador), sin ventana de consola visible.
 
-v1.0.1: incluye la conexion a Supabase (licencias) ya configurada de fabrica -- antes de esta version la activacion de licencia no podia funcionar en un equipo instalado.
+- v1.0.1: incluye la conexion a Supabase (licencias) ya configurada de fabrica.
+- v1.0.2: los precios de las cotizaciones ya no suman impuesto encima del precio de Siigo; abre el cajon monedero al cobrar en efectivo; ventana nativa sin consola ni barra de navegador.
 
 ## ResetAdminPin.exe
 
