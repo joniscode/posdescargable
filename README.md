@@ -8,7 +8,7 @@ Instalador de la aplicacion completa. Este es un link fijo: cada vez que hay una
 
 Doble clic, instala en el equipo, crea acceso directo. No requiere permisos de administrador. Abre en una ventana tipo app (sin barra de navegador), sin ventana de consola visible.
 
-Version actual: **1.2.4**
+Version actual: **1.2.5**
 
 **Nota:** por un error de empaquetado, los .exe publicados como v1.2.0 a v1.2.2 en realidad no llevaban esos cambios (se corrigio en v1.2.4). Si instalaste alguna de esas versiones, vuelve a instalar desde este link.
 
@@ -21,6 +21,7 @@ Version actual: **1.2.4**
 - v1.2.1: la sincronizacion con Siigo ya no sobreescribe el inventario local (las cotizaciones no descuentan stock en Siigo, asi que ese numero ya no se le impone a Prilso); la cotizacion impresa/PDF ya no muestra desglose de IVA, solo cantidad, precio unitario, total, descuento y total a pagar.
 - v1.2.2: la app ya puede buscar y aplicar actualizaciones desde adentro (Admin > Licencia > "Actualizar ahora") -- descarga el instalador de este mismo link y lo abre, sin tener que venir aqui a buscarlo a mano. Si el equipo bloquea abrir el instalador por politicas de seguridad, se ve un aviso con este mismo link para descargarlo manual.
 - v1.2.4: corrige que "Actualizar ahora" se quedara pegado esperando a que Windows cerrara Prilso POS -- ahora la app se cierra ella misma justo despues de abrir el instalador nuevo. Tambien corrige el error de empaquetado mencionado arriba.
+- v1.2.5: corrige "Acceso denegado" al instalar una version nueva manualmente mientras Prilso POS esta abierto -- ahora Windows si tiene forma de pedirle a la app que se cierre durante la instalacion.
 
 ## ResetAdminPin.exe
 
