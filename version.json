@@ -1,5 +1,5 @@
 {
-  "version": "1.2.5",
-  "notes": "Corrige que actualizar diera 'Acceso denegado' al reemplazar archivos: ahora Windows si puede pedirle a la app que se cierre durante una instalacion (antes no tenia como, al no tener ventana ni consola).",
+  "version": "1.2.6",
+  "notes": "IMPORTANTE: corrige que una venta en efectivo se perdiera (no se guardaba) justo despues de que el cajon de dinero abriera -- por eso el Total se quedaba pegado en pantalla sin limpiarse. Actualiza cuanto antes.",
   "downloadUrl": "https://raw.githubusercontent.com/joniscode/posdescargable/main/PrilsoPOS-Setup.exe"
 }
