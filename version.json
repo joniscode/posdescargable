@@ -1,0 +1,5 @@
+{
+  "version": "1.2.1",
+  "notes": "La sincronizacion con Siigo ya no sobreescribe el inventario local; la cotizacion impresa ya no muestra desglose de IVA.",
+  "downloadUrl": "https://raw.githubusercontent.com/joniscode/posdescargable/main/PrilsoPOS-Setup.exe"
+}
