@@ -8,21 +8,9 @@ Instalador de la aplicacion completa. Este es un link fijo: cada vez que hay una
 
 Doble clic, instala en el equipo, crea acceso directo. No requiere permisos de administrador. Abre en una ventana tipo app (sin barra de navegador), sin ventana de consola visible.
 
-Version actual: **1.2.6**
+Version actual: **1.0.0**
 
-**Nota:** por un error de empaquetado, los .exe publicados como v1.2.0 a v1.2.2 en realidad no llevaban esos cambios (se corrigio en v1.2.4). Si instalaste alguna de esas versiones, vuelve a instalar desde este link.
-
-- v1.0.1: incluye la conexion a Supabase (licencias) ya configurada de fabrica.
-- v1.0.2: los precios de las cotizaciones ya no suman impuesto encima del precio de Siigo; abre el cajon monedero al cobrar en efectivo; ventana nativa sin consola ni barra de navegador.
-- v1.0.3: el campo "Recibido" ya no empieza en 0 (evita que se pegue un cero al escribir); si una cotizacion no logra sincronizar con Siigo, ahora avisa claramente por que en vez de guardar en silencio con el numero local.
-- v1.0.4: icono de la pestana/ventana con el logo real (la P) y titulo "PrilsoTech Pos" en vez del generico anterior.
-- v1.1.0: descuentos por producto al cobrar, devoluciones/reembolsos (desde Documentos), stock por bodega (Stock > Bodegas), cierre de caja formal con conteo fisico e impresion (Caja > Cerrar caja), y desplegable de usuarios en el login.
-- v1.2.0: pantalla de "Configuracion inicial" ampliada (datos de la empresa y, si ya los tienes, credenciales de Siigo, todo en un solo paso); permisos por usuario mas completos.
-- v1.2.1: la sincronizacion con Siigo ya no sobreescribe el inventario local (las cotizaciones no descuentan stock en Siigo, asi que ese numero ya no se le impone a Prilso); la cotizacion impresa/PDF ya no muestra desglose de IVA, solo cantidad, precio unitario, total, descuento y total a pagar.
-- v1.2.2: la app ya puede buscar y aplicar actualizaciones desde adentro (Admin > Licencia > "Actualizar ahora") -- descarga el instalador de este mismo link y lo abre, sin tener que venir aqui a buscarlo a mano. Si el equipo bloquea abrir el instalador por politicas de seguridad, se ve un aviso con este mismo link para descargarlo manual.
-- v1.2.4: corrige que "Actualizar ahora" se quedara pegado esperando a que Windows cerrara Prilso POS -- ahora la app se cierra ella misma justo despues de abrir el instalador nuevo. Tambien corrige el error de empaquetado mencionado arriba.
-- v1.2.5: corrige "Acceso denegado" al instalar una version nueva manualmente mientras Prilso POS esta abierto -- ahora Windows si tiene forma de pedirle a la app que se cierre durante la instalacion.
-- v1.2.6: **importante** -- corrige que una venta en efectivo se perdiera justo despues de abrir el cajon de dinero (el Total se quedaba pegado en pantalla sin limpiarse porque la venta en realidad no se habia guardado). Actualiza cuanto antes si cobras en efectivo.
+Version completa reiniciada desde cero: Cotizacion 100% local (nunca toca Siigo), Factura real de Siigo con envio automatico a la DIAN en el mismo paso, licencia y sesion de Siigo marcadas en verde cuando ya estan activas, boton de salida con opciones de cerrar sesion / salir del programa / apagar el equipo, y varias correcciones de estabilidad acumuladas.
 
 ## ResetAdminPin.exe
 
