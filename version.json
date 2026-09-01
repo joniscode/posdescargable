@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
-  "notes": "Version completa: Cotizacion 100% local, Factura real Siigo con envio automatico a la DIAN, licencia y sesion de Siigo marcadas cuando ya estan activas, cierre con opciones de cerrar sesion / salir / apagar equipo, y varias correcciones de estabilidad.",
+  "version": "1.0.1",
+  "notes": "Corrige que Siigo duplicara el IVA al crear una Factura real (el precio que se enviaba ya incluia el impuesto, y Siigo lo volvia a sumar encima) -- causaba el rechazo \"invalid_total_payments\". El precio final que paga el cliente no cambia.",
   "downloadUrl": "https://raw.githubusercontent.com/joniscode/posdescargable/main/PrilsoPOS-Setup.exe"
 }
