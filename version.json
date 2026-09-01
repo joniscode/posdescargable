@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
-  "notes": "Corrige que Siigo duplicara el IVA al crear una Factura real (el precio que se enviaba ya incluia el impuesto, y Siigo lo volvia a sumar encima) -- causaba el rechazo \"invalid_total_payments\". El precio final que paga el cliente no cambia.",
+  "version": "1.0.0",
+  "notes": "Corrige que Siigo rechazara la Factura real por el IVA (se enviaba el precio con impuesto incluido y Siigo lo volvia a sumar) y por precios con muchos decimales. El precio final que paga el cliente no cambia.",
   "downloadUrl": "https://raw.githubusercontent.com/joniscode/posdescargable/main/PrilsoPOS-Setup.exe"
 }
